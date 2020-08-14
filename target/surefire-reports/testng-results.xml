@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16880" started-at="2020-08-13T10:44:57Z" finished-at="2020-08-13T10:45:14Z">
+    <groups>
+    </groups>
+    <test name="Project" duration-ms="16880" started-at="2020-08-13T10:44:57Z" finished-at="2020-08-13T10:45:14Z">
+      <class name="com.practice.MavenPractice.Project1Test">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.practice.MavenPractice.Project1Test@1e53c76]" name="config" is-config="true" duration-ms="454" started-at="2020-08-13T16:14:57Z" finished-at="2020-08-13T16:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.practice.MavenPractice.Project1Test@1e53c76]" name="invokeBrowser" duration-ms="16383" started-at="2020-08-13T16:14:58Z" finished-at="2020-08-13T16:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+      </class> <!-- com.practice.MavenPractice.Project1Test -->
+    </test> <!-- Project -->
+  </suite> <!-- Suite -->
+</testng-results>

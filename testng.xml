@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name = "com.practice.MavenPractice.Listeners"/>
+	</listeners>
+	<parameter name="Chrome" value="C:\\Users\\assurasa\\Desktop\\Udemy\\Selenium\\chromedriver.exe"/>
+	<test name="Project" parallel="classes" thread-count="2">
+		<parameter name="Url" value="https://www.amazon.in"/>
+		<groups>
+			<run>
+				<include name="Sample"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.practice.MavenPractice.Project1Test" />
+			<class name="com.practice.MavenPractice.Project2" />
+			<class name="com.practice.MavenPractice.Project3" />
+			<class name="com.practice.MavenPractice.Project4" />
+		</classes>
+		<!--<packages>
+    	<package name = "projects"/>
+    </packages> -->
+	</test> <!-- Project1 -->
+</suite> <!-- Suite -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="Chrome" value="C:\\Users\\assurasa\\Desktop\\Udemy\\Selenium\\chromedriver.exe"/>
+  <parameter name="Url" value="https://www.amazon.in"/>
+  <listeners>
+    <listener class-name="com.practice.MavenPractice.Listeners"/>
+  </listeners>
+  <test name="Project(failed)" parallel="classes">
+    <parameter name="Url" value="https://www.amazon.in"/>
+    <groups>
+      <run>
+        <include name="Sample"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.practice.MavenPractice.Project3">
+        <methods>
+          <include name="testCase1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.practice.MavenPractice.Project3 -->
+    </classes>
+  </test> <!-- Project(failed) -->
+</suite> <!-- Failed suite [Suite] -->

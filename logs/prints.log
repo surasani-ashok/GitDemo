@@ -1,0 +1,5 @@
+16:11:20.307 [main] DEBUG com.practice.MavenPractice.Project1Test - Main test Completed
+16:14:57.558 [main] ERROR com.practice.MavenPractice.Project1Test - Before Class test Started
+16:14:57.980 [main] DEBUG com.practice.MavenPractice.Project1Test - Before Class test Completed
+16:14:58.011 [TestNG-test=Project-1] DEBUG com.practice.MavenPractice.Project1Test - Main test Started
+16:15:14.394 [TestNG-test=Project-1] DEBUG com.practice.MavenPractice.Project1Test - Main test Completed
